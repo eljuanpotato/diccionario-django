@@ -1,0 +1,59 @@
+# Ignorar archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar el entorno virtual
+.venv/
+venv/
+
+# Ignorar archivos de base de datos de Django
+db.sqlite3
+
+# Ignorar archivos de migraciones de Django
+*/migrations/*
+
+# Archivos específicos de OS
+*.DS_Store  # MacOS
+Thumbs.db  # Windows
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración específicos de IDE (por ejemplo, VSCode)
+.vscode/
+
+# Archivos de configuración específicos de PyCharm
+.idea/
+
+# Archivos de configuración de Heroku
+*.env
+
+# Firebase cache
+.firebase/
+
+# Firebase config (Descomenta si usas Firebase en el proyecto)
+# .firebaserc
+
+# Logs de Firebase
+firebase-debug.log*
+firebase-debug.*.log*
+
+# Archivos relacionados con Node.js (si el proyecto incluye frontend con Node)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos temporales de herramientas de test y build
+coverage/
+.nyc_output/
+.grunt/
+bower_components/
+.lock-wscript
+build/Release
+
+# Archivos generados por npm y Yarn
+.npm
+.yarn-integrity
